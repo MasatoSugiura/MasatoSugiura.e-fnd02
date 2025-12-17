@@ -1,0 +1,18 @@
+.status{
+    display: flex;
+    background: #52deff;
+}
+
+.dice{
+    display: flex;
+    height: 150px;
+    justify-content: flex-end;
+}
+
+#h1-cpu{
+    font-size: 80px;
+}
+
+#h1-player{
+    font-size: 80px;
+}
