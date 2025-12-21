@@ -7,28 +7,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="status">
-    <h1 id="h1-cpu">CPU</h1>
+  <div class="cpu-status1">
+    <div id="cpu-play">Computer</div>
+  </div>
+
+  <div class="cpu-status2">
+    <div id="cpu-hp">HP:50</div>
+    <div> <img src="images/dice1.jpg" id="cpu-dice" class="dice"> </div>
+  </div>
   
-      <img src="images\dice1.jpg" id="cpu-dice" class="dice"> 
- 
-  </div>  
-
-  <div>
-    <img src="images\janken1.png" id="cpu-jan" >
+  <div class="cpu-game">
+    <div> <img src="images/janken1.png" id="cpu-jan"> </div>
   </div>
 
-
-  <div>
-    <img src="images\janken1.png" id="jan-gu" >
-    <img src="images\janken2.png" id="jan-cho" >
-    <img src="images\janken3.png" id="jan-pa" >
+  <div class="game-message">
+    <div id="message">じゃんけん</div> 
   </div>
 
-  <div class="status">
-    <h1 id="h1-player">player</h1>
-    <img src="images\dice1.jpg" id="player-dice" class="dice">
+  <div class="start-button">
+    <button id="start">START</button>
   </div>
+
+  <div class="player-game">
+    <div> <img src="images\janken1.png" id="player-jan1"> </div>
+    <div> <img src="images\janken2.png" id="player-jan2"> </div>
+    <div> <img src="images\janken3.png" id="player-jan3"> </div>
+  </div>
+
+  <div class="player-status1">
+    <div id="player-play">Player</div>
+  </div>
+
+  <div class="player-status2">
+    <div id="player-hp">HP:50</div>
+    <div> <img src="images/dice4.jpg" id="player-dice" class="dice"> </div>
+  </div>
+
 
   <script type="text/javascript" src="script.js"></script>
 

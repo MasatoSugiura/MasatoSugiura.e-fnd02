@@ -1,18 +1,53 @@
-.status{
-    display: flex;
-    background: #52deff;
+.cpu-status1,.player-status1{
+    display: block;
 }
 
-.dice{
+.cpu-status2,.player-status2{
     display: flex;
+    gap: 100px;
+}
+
+.cpu-game,.player-game{
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    visibility: hidden;
+}
+
+.game-message{
     height: 150px;
-    justify-content: flex-end;
 }
 
-#h1-cpu{
+.start-button{
+    text-align: center;
+}
+
+button{
+    font-size: 30px;
+}
+
+
+#cpu-play,#player-play{
+    font-size: 30px;
+    background: greenyellow;
+}
+
+#cpu-dice,#player-dice{
+    height: 100px;
+}
+
+#cpu-hp,#player-hp{
     font-size: 80px;
 }
 
-#h1-player{
-    font-size: 80px;
+#cpu-jan,#player-jan1,#player-jan2,#player-jan3{
+    height: 250px;
 }
+
+#message{
+    text-align: center;
+    font-size: 80px;
+    color: red;
+    visibility: hidden;
+}
+
