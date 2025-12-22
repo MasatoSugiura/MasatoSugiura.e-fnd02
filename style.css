@@ -9,13 +9,13 @@
 
 .cpu-game,.player-game{
     display: flex;
-    height: 200px;
+    height: 150px;
     justify-content: space-around;
     visibility: hidden;
 }
 
 .game-message{
-    height: 150px;
+    height: 100px;
 }
 
 .start-button{
@@ -23,30 +23,30 @@
 }
 
 button{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
 #cpu-play,#player-play{
-    font-size: 30px;
+    font-size: 20px;
     background: greenyellow;
 }
 
 #cpu-dice,#player-dice{
-    height: 100px;
+    height: 80px;
 }
 
 #cpu-hp,#player-hp{
-    font-size: 80px;
+    font-size: 50px;
 }
 
 #cpu-jan,#player-jan1,#player-jan2,#player-jan3{
-    height: 250px;
+    height: 200px;
 }
 
 #message{
     text-align: center;
-    font-size: 80px;
+    font-size: 50px;
     color: red;
     visibility: hidden;
 }
